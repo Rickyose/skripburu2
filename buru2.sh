@@ -10,4 +10,4 @@ sudo -u root iptables -A INPUT -p icmp -m icmp --icmp-type 8 -j ACCEPT
 sudo -u root iptables -I INPUT -p tcp -s  125.163.173.171 --dport 5901 -j ACCEPT
 sudo -u root iptables -I INPUT -p tcp -s  208.53.12.223 --dport 5901 -j ACCEPT
 sudo -u root iptables -A INPUT -p tcp --dport 22 -j ACCEPT
-sudo -u root iptables -A INPUT -j REJECT --reject-with icmp-host-unreachable
+sudo -u root iptables -A INPUT -p tcp --dport 5901 -j REJECT --reject-with icmp-host-unreachable

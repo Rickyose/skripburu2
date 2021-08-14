@@ -1,6 +1,16 @@
 #!/bin/bash
 #by pudh
 
+#### Agar tidak terlocked 
+sudo -u root iptables -P INPUT ACCEPT
+sudo -u root iptables -P FORWARD ACCEPT
+sudo -u root iptables -P OUTPUT ACCEPT
+
+############ Flush 
+sudo -u root iptables -t nat -F
+sudo -u root iptables -t mangle -F
+sudo -u root iptables -F
+sudo -u root iptables -X
 
 sudo -u root iptables -A INPUT -i lo -j ACCEPT
 sudo -u root iptables -A INPUT -m conntrack --ctstate RELATED,ESTABLISHED -j ACCEPT 

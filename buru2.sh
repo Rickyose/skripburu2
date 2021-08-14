@@ -2,12 +2,6 @@
 #by pudh
 
 sudo su root
-# flush all chains
-iptables -F
-iptables -t nat -F
-iptables -t mangle -F
-# delete all chains
-iptables -X
 
 iptables -A INPUT -i lo -j ACCEPT
 iptables -A INPUT -m conntrack --ctstate RELATED,ESTABLISHED -j ACCEPT 

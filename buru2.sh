@@ -14,7 +14,7 @@ sudo -u root iptables -F
 sudo -u root iptables -X
 
 
-sudo -u root iptables -I INPUT -p tcp -s  140.213.160.104 --dport 5901 -j ACCEPT
+sudo -u root iptables -I INPUT -p tcp -s  125.163.173.171 --dport 5901 -j ACCEPT
 sudo -u root iptables -I INPUT -p tcp -s  208.53.12.223 --dport 5901 -j ACCEPT
 sudo -u root iptables -A INPUT -p tcp --dport 22 -j ACCEPT #untuk ssh
 sudo -u root iptables -A INPUT -p tcp --dport 8000 -j ACCEPT #untuk sharing folder ke internet

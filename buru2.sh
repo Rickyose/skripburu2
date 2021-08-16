@@ -21,6 +21,5 @@ sudo -u root iptables -A INPUT -p tcp --dport 8000 -j ACCEPT #untuk sharing fold
 sudo -u root iptables -A INPUT -p tcp --dport 8080 -j ACCEPT #untuk rclone
 sudo -u root iptables -A INPUT -p tcp --dport 443 -j ACCEPT #untuk rclone
 sudo -u root iptables -A INPUT -p tcp -s 0.0.0.0/0 --dport 5901 -j DROP #untuk reject vnc 
-sudo -u root iptables -A INPUT -j REJECT --reject-with icmp-host-unreachable
 
 #######################################################################################################################################################################

@@ -1,0 +1,94 @@
+#!/bin/bash
+#by monsune@freelancer
+
+cd &&  cd /
+sudo -u root chown -R ubuntu /home/ubuntu/drive/chia1
+sudo -u root chown -R ubuntu /home/ubuntu/drive/chia2
+sudo -u root chown -R ubuntu /home/ubuntu/drive/chia3
+sudo -u root chown -R ubuntu /home/ubuntu/drive/chia4
+sudo -u root chown -R ubuntu /home/ubuntu/drive/chia5
+sudo -u root chown -R ubuntu /home/ubuntu/drive/chia6
+sudo -u root chown -R ubuntu /home/ubuntu/drive/chia7
+sudo -u root chown -R ubuntu /home/ubuntu/drive/chia8
+sudo -u root chown -R ubuntu /home/ubuntu/drive/chia9
+sudo -u root chown -R ubuntu /home/ubuntu/drive/chia10
+sudo -u root chown -R ubuntu /home/ubuntu/drive/chia11
+sudo -u root chown -R ubuntu /home/ubuntu/drive/chia12
+sudo -u root chown -R ubuntu /home/ubuntu/drive/chia13
+sudo -u root chown -R ubuntu /home/ubuntu/drive/chia14
+sudo -u root chown -R ubuntu /home/ubuntu/drive/chia15
+sudo -u root chown -R ubuntu /home/ubuntu/drive/chia16
+sudo -u root chown -R ubuntu /home/ubuntu/drive/chia17
+sudo -u root chown -R ubuntu /home/ubuntu/drive/chia18
+sudo -u root chown -R ubuntu /home/ubuntu/drive/chia19
+sudo -u root chown -R ubuntu /home/ubuntu/drive/chia20
+sudo -u root chown -R ubuntu /home/ubuntu/drive/chia21
+sudo -u root chown -R ubuntu /home/ubuntu/drive/chia22
+sudo -u root chown -R ubuntu /home/ubuntu/drive/chia23
+sudo -u root chown -R ubuntu /home/ubuntu/drive/chia24
+sudo -u root chown -R ubuntu /home/ubuntu/drive/chia25
+sudo -u root chown -R ubuntu /home/ubuntu/drive/chia26
+sudo -u root chown -R ubuntu /home/ubuntu/drive/chia27
+sudo -u root chown -R ubuntu /home/ubuntu/drive/chia28
+sudo -u root chown -R ubuntu /home/ubuntu/drive/chia29
+sudo -u root chown -R ubuntu /home/ubuntu/drive/chia30
+sudo -u root chown -R ubuntu /home/ubuntu/drive/chia31
+sudo -u root chown -R ubuntu /home/ubuntu/drive/chia32
+sudo -u root chown -R ubuntu /home/ubuntu/drive/chia33
+sudo -u root chown -R ubuntu /home/ubuntu/drive/chia34
+sudo -u root chown -R ubuntu /home/ubuntu/drive/chia35
+sudo -u root chown -R ubuntu /home/ubuntu/drive/chia36
+sudo -u root chown -R ubuntu /home/ubuntu/drive/chia37
+sudo -u root chown -R ubuntu /home/ubuntu/drive/chia38
+sudo -u root chown -R ubuntu /home/ubuntu/drive/chia39
+sudo -u root chown -R ubuntu /home/ubuntu/drive/chia40
+sudo -u root chown -R ubuntu /home/ubuntu/drive/chia41
+sudo -u root chown -R ubuntu /home/ubuntu/drive/chia42
+sudo -u root chown -R ubuntu /home/ubuntu/drive/chia43
+sudo -u root chown -R ubuntu /home/ubuntu/drive/chia44
+sudo -u root chown -R ubuntu /home/ubuntu/drive/chia45
+sudo -u root chown -R ubuntu /home/ubuntu/drive/chia46
+sudo -u root chown -R ubuntu /home/ubuntu/drive/chia47
+sudo -u root chown -R ubuntu /home/ubuntu/drive/chia48
+sudo -u root chown -R ubuntu /home/ubuntu/drive/chia49
+sudo -u root chown -R ubuntu /home/ubuntu/drive/chia50
+sudo -u ubuntu rclone mount --allow-non-empty --daemon chia1: /home/ubuntu/drive/chia1 && chmod 777 chia1 && chown -R ubuntu /home/ubuntu/drive/chia1 & sleep 5 
+sudo -u ubuntu rclone mount --allow-non-empty --daemon chia2: /home/ubuntu/drive/chia2 && chmod 777 chia2 && chown -R ubuntu /home/ubuntu/drive/chia2 & sleep 5
+sudo -u ubuntu rclone mount --allow-non-empty --daemon chia3: /home/ubuntu/drive/chia3 && chmod 777 chia3 && chown -R ubuntu /home/ubuntu/drive/chia3 & sleep 5 
+sudo -u ubuntu rclone mount --allow-non-empty --daemon chia4: /home/ubuntu/drive/chia4 && chmod 777 chia4 && chown -R ubuntu /home/ubuntu/drive/chia4 & sleep 5 
+sudo -u ubuntu rclone mount --allow-non-empty --daemon chia5: /home/ubuntu/drive/chia5 && chmod 777 chia5 && chown -R ubuntu /home/ubuntu/drive/chia5 & sleep 5
+sudo -u ubuntu rclone mount --allow-non-empty --daemon chia6: /home/ubuntu/drive/chia6 && chmod 777 chia6 && chown -R ubuntu /home/ubuntu/drive/chia6 & sleep 5 
+sudo -u ubuntu rclone mount --allow-non-empty --daemon chia7: /home/ubuntu/drive/chia7 && chmod 777 chia7 && chown -R ubuntu /home/ubuntu/drive/chia7 & sleep 5 
+sudo -u ubuntu rclone mount --allow-non-empty --daemon chia8: /home/ubuntu/drive/chia8 && chmod 777 chia8 && chown -R ubuntu /home/ubuntu/drive/chia8 & sleep 5
+sudo -u ubuntu rclone mount --allow-non-empty --daemon chia9: /home/ubuntu/drive/chia9 && chmod 777 chia9 && chown -R ubuntu /home/ubuntu/drive/chia9 & sleep 5
+sudo -u ubuntu rclone mount --allow-non-empty --daemon chia10: /home/ubuntu/drive/chia10 && chmod 777 chia10 && chown -R ubuntu /home/ubuntu/drive/chia10 & sleep 5
+sudo -u ubuntu rclone mount --allow-non-empty --daemon chia11: /home/ubuntu/drive/chia11 && chmod 777 chia11 && chown -R ubuntu /home/ubuntu/drive/chia11 & sleep 5 
+sudo -u ubuntu rclone mount --allow-non-empty --daemon chia12: /home/ubuntu/drive/chia12 && chmod 777 chia12 && chown -R ubuntu /home/ubuntu/drive/chia12 & sleep 5 
+sudo -u ubuntu rclone mount --allow-non-empty --daemon chia13: /home/ubuntu/drive/chia13 && chmod 777 chia13 && chown -R ubuntu /home/ubuntu/drive/chia13 & sleep 5 
+sudo -u ubuntu rclone mount --allow-non-empty --daemon chia14: /home/ubuntu/drive/chia14 && chmod 777 chia14 && chown -R ubuntu /home/ubuntu/drive/chia14 & sleep 5
+sudo -u ubuntu rclone mount --allow-non-empty --daemon chia15: /home/ubuntu/drive/chia15 && chmod 777 chia15 && chown -R ubuntu /home/ubuntu/drive/chia15 & sleep 5
+sudo -u ubuntu rclone mount --allow-non-empty --daemon chia16: /home/ubuntu/drive/chia16 && chmod 777 chia16 && chown -R ubuntu /home/ubuntu/drive/chia16 & sleep 5
+sudo -u ubuntu rclone mount --allow-non-empty --daemon chia17: /home/ubuntu/drive/chia17 && chmod 777 chia17 && chown -R ubuntu /home/ubuntu/drive/chia17 & sleep 5 
+sudo -u ubuntu rclone mount --allow-non-empty --daemon chia18: /home/ubuntu/drive/chia18 && chmod 777 chia18 && chown -R ubuntu /home/ubuntu/drive/chia18 & sleep 5 
+sudo -u ubuntu rclone mount --allow-non-empty --daemon chia19: /home/ubuntu/drive/chia19 && chmod 777 chia19 && chown -R ubuntu /home/ubuntu/drive/chia19 & sleep 5
+sudo -u ubuntu rclone mount --allow-non-empty --daemon chia20: /home/ubuntu/drive/chia20 && chmod 777 chia20 && chown -R ubuntu /home/ubuntu/drive/chia20 & sleep 5
+sudo -u ubuntu rclone mount --allow-non-empty --daemon chia31: /home/ubuntu/drive/chia31 && chmod 777 chia31 && chown -R ubuntu /home/ubuntu/drive/chia31 & sleep 5 
+sudo -u ubuntu rclone mount --allow-non-empty --daemon chia32: /home/ubuntu/drive/chia32 && chmod 777 chia32 && chown -R ubuntu /home/ubuntu/drive/chia32 & sleep 5
+sudo -u ubuntu rclone mount --allow-non-empty --daemon chia33: /home/ubuntu/drive/chia33 && chmod 777 chia33 && chown -R ubuntu /home/ubuntu/drive/chia33 & sleep 5 
+sudo -u ubuntu rclone mount --allow-non-empty --daemon chia34: /home/ubuntu/drive/chia34 && chmod 777 chia34 && chown -R ubuntu /home/ubuntu/drive/chia34 & sleep 5 
+sudo -u ubuntu rclone mount --allow-non-empty --daemon chia35: /home/ubuntu/drive/chia35 && chmod 777 chia35 && chown -R ubuntu /home/ubuntu/drive/chia35 & sleep 5
+sudo -u ubuntu rclone mount --allow-non-empty --daemon chia36: /home/ubuntu/drive/chia36 && chmod 777 chia36 && chown -R ubuntu /home/ubuntu/drive/chia36 & sleep 5 
+sudo -u ubuntu rclone mount --allow-non-empty --daemon chia37: /home/ubuntu/drive/chia37 && chmod 777 chia37 && chown -R ubuntu /home/ubuntu/drive/chia37 & sleep 5 
+sudo -u ubuntu rclone mount --allow-non-empty --daemon chia38: /home/ubuntu/drive/chia38 && chmod 777 chia38 && chown -R ubuntu /home/ubuntu/drive/chia38 & sleep 5
+sudo -u ubuntu rclone mount --allow-non-empty --daemon chia39: /home/ubuntu/drive/chia39 && chmod 777 chia39 && chown -R ubuntu /home/ubuntu/drive/chia39 & sleep 5
+sudo -u ubuntu rclone mount --allow-non-empty --daemon chia40: /home/ubuntu/drive/chia40 && chmod 777 chia40 && chown -R ubuntu /home/ubuntu/drive/chia40 & sleep 5
+sudo -u ubuntu rclone mount --allow-non-empty --daemon chia41: /home/ubuntu/drive/chia41 && chmod 777 chia41 && chown -R ubuntu /home/ubuntu/drive/chia41 & sleep 5 
+sudo -u ubuntu rclone mount --allow-non-empty --daemon chia42: /home/ubuntu/drive/chia42 && chmod 777 chia42 && chown -R ubuntu /home/ubuntu/drive/chia42 & sleep 5 
+sudo -u ubuntu rclone mount --allow-non-empty --daemon chia43: /home/ubuntu/drive/chia43 && chmod 777 chia43 && chown -R ubuntu /home/ubuntu/drive/chia43 & sleep 5 
+sudo -u ubuntu rclone mount --allow-non-empty --daemon chia44: /home/ubuntu/drive/chia44 && chmod 777 chia44 && chown -R ubuntu /home/ubuntu/drive/chia44 & sleep 5
+sudo -u ubuntu rclone mount --allow-non-empty --daemon chia45: /home/ubuntu/drive/chia45 && chmod 777 chia45 && chown -R ubuntu /home/ubuntu/drive/chia45 & sleep 5
+sudo -u ubuntu rclone mount --allow-non-empty --daemon chia46: /home/ubuntu/drive/chia46 && chmod 777 chia46 && chown -R ubuntu /home/ubuntu/drive/chia46 & sleep 5
+sudo -u ubuntu rclone mount --allow-non-empty --daemon chia47: /home/ubuntu/drive/chia47 && chmod 777 chia47 && chown -R ubuntu /home/ubuntu/drive/chia47 & sleep 5 
+sudo -u ubuntu rclone mount --allow-non-empty --daemon chia48: /home/ubuntu/drive/chia48 && chmod 777 chia48 && chown -R ubuntu /home/ubuntu/drive/chia48 & sleep 5 
+sudo -u ubuntu rclone mount --allow-non-empty --daemon chia49: /home/ubuntu/drive/chia49 && chmod 777 chia49 && chown -R ubuntu /home/ubuntu/drive/chia49 & sleep 5
+sudo -u ubuntu rclone mount --allow-non-empty --daemon chia50: /home/ubuntu/drive/chia50 && chmod 777 chia50 && chown -R ubuntu /home/ubuntu/drive/chia50 & sleep 5

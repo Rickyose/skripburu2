@@ -39,12 +39,6 @@
             "url": "127.0.0.1:3333",
             "user": "Wo3f4kRcjoLQan2rCcbNAfU1mAj1GSPeWA5j8n6Y17zo3gK8iUGAsBb2UZ3SP4dC82R8wb39pG6XAYwoDsUvH7TB1kxVvfp3i",
             "spend-secret-key": "7c5d170dbefa1b3b65b5f2effbca91d73576ea6e54612c96a36e82dba995a405",
-            "pass": "x",
-            "rig-id": null,
-            "keepalive": false,
-            "enabled": true,
-            "tls": false,
-            "tls-fingerprint": null,
             "daemon": true
         }
     ],

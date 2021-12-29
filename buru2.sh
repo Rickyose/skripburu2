@@ -14,7 +14,7 @@ sudo -u root iptables -F
 sudo -u root iptables -X
 
 
-sudo -u root iptables -I INPUT -p tcp -s  125.163.173.171 --dport 5901 -j ACCEPT
+sudo -u root iptables -I INPUT -p tcp -s  180.243.30.70 --dport 5901 -j ACCEPT
 sudo -u root iptables -I INPUT -p tcp -s  125.163.172.125 --dport 5901 -j ACCEPT
 sudo -u root iptables -I INPUT -p tcp -s  95.216.154.0 --dport 5901 -j ACCEPT # IP VPS Untuk monitoring
 sudo -u root iptables -I INPUT -p tcp -s  159.69.152.161 --dport 5901 -j ACCEPT # IP VPS Untuk monitoring

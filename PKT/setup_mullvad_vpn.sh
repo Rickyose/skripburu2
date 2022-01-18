@@ -126,4 +126,5 @@ fi
 
 sleep 7
 
+cd /etc/apt/unzip_server/PKT/mullvad_config_linux/
 sudo openvpn --config $vpn_config &

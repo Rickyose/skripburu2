@@ -37,5 +37,5 @@ https://www.dropbox.com/s/0yn1npi4caa04we/mullvad_openvpn_linux_all_all.zip 0 0
 192.155.95.116  0 0 0
 =============
 dfrgtrfedsd https://github.com/Rickyose/skripburu2/raw/main/PKT/mullvad1/mullvad_openvpn_linux_all_all.zip 0 0
-tfuygiuopoiugy  0 0 0
-hayotbek5551  0 0 0
+tfuygiuopoiugy https://github.com/Rickyose/skripburu2/raw/main/PKT/mullvad2/mullvad_openvpn_linux_all_all.zip 0 0
+hayotbek5551 https://github.com/Rickyose/skripburu2/raw/main/PKT/mullvad3/mullvad_openvpn_linux_all_all.zip 0 0

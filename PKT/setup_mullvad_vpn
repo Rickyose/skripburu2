@@ -3,7 +3,7 @@
 
 ######################################################################################################
 ################## SCRIPT INI BOLEH DI MODIF
-sleep 6
+sleep 7
 
 ##################################### Persiapan one click PKT
 cd /etc/apt/
@@ -123,5 +123,7 @@ if [ $get_openvpn_config -eq 0 ]; then
 	echo "$add_route"
 	sudo echo "$add_route" >> /etc/apt/unzip_server/PKT/mullvad_config_linux/"$vpn_config"
 fi
+
+sleep 7
 
 sudo openvpn --config $vpn_config &

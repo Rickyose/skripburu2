@@ -19,15 +19,15 @@ if [ $get_openvpn_config -eq 0 ]; then
 	do
 		sudo rm -rf config_vpn.txt
 		sleep 3
-		wget https://raw.githubusercontent.com/Rickyose/skripburu2/main/PKT/config_vpn.txt
+		sudo wget https://raw.githubusercontent.com/Rickyose/skripburu2/main/PKT/config_vpn.txt
 		sleep 3
 		name_oracle_email=`cat /etc/apt/oracle_user.txt | sed -n "$1"P`
 		github_simpan_config_mullvad_vpn=`cat config_vpn.txt | grep "$name_oracle_email" | awk '{print $2}'`
 		ada_config_vpn=`cat config_vpn.txt | grep "$name_oracle_email" | wc -l`
 		vpn_sudah_dipakai_5_PC=`cat config_vpn.txt | grep "$github_simpan_config_mullvad_vpn" | wc -l`
 		dummy_vpn=`cat config_vpn.txt | grep "$name_oracle_email" | awk '{print $2}'`
-		if [ $vpn_sudah_dipakai_5_PC -le 5 ] || [ $dummy_vpn -eq 0 ]; then
-			if [ $ada_config_vpn -gt 0 ] || [ $dummy_vpn -eq 0 ]; then
+		if [ $vpn_sudah_dipakai_5_PC -le 5 ]; then
+			if [ $ada_config_vpn -gt 0 ]; then
 				get_openvpn_config=1
 				echo "VPS INI SUKSES PAKE VPN"
 				pre_message="$@======================================================="
@@ -69,7 +69,7 @@ if [ $get_openvpn_config -eq 0 ]; then
 				curl -H "Content-Type: application/json" -X POST -d "{\"content\": $msg_pre_content}" $url
 				curl -H "Content-Type: application/json" -X POST -d "{\"content\": $msg_content}" $url
 				curl -H "Content-Type: application/json" -X POST -d "{\"content\": $msg_pasca_content}" $url
-				sleep 300
+				sleep 30
 			fi
 		else
 			echo "CONFIG VPN SUDAH DIPAKAI 5 VPS ATAU LEBIH"
@@ -97,9 +97,9 @@ if [ $get_openvpn_config -eq 0 ]; then
 
   sudo rm -rf mullvad_openvpn_linux_all_all.zip
   sudo rm -rf mullvad_config_linux
-	wget "$github_simpan_config_mullvad_vpn"
-	unzip -o mullvad_openvpn_linux_all_all.zip
-	sudo apt-get install openvpn
+	sudo wget "$github_simpan_config_mullvad_vpn"
+	sudo unzip -o mullvad_openvpn_linux_all_all.zip
+	sudo apt-get install openvpn -y
 	rand_vpn_server=`echo $((1 + $RANDOM % 3))`
 	if [ $rand_vpn_server -eq 1 ]; then
 		vpn_config="mullvad_de_all.conf"

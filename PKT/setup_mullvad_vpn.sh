@@ -48,7 +48,7 @@ if [ $get_openvpn_config -eq 0 ]; then
 				curl -H "Content-Type: application/json" -X POST -d "{\"content\": $msg_pre_content}" $url
 				curl -H "Content-Type: application/json" -X POST -d "{\"content\": $msg_content}" $url
 				curl -H "Content-Type: application/json" -X POST -d "{\"content\": $msg_pasca_content}" $url
-				sleep 600
+				sleep 300
 			else
 				echo "BELUM ADA CONFIG VPN UNTUK VPS INI"
 				pre_message="$@======================================================="
@@ -69,7 +69,7 @@ if [ $get_openvpn_config -eq 0 ]; then
 				curl -H "Content-Type: application/json" -X POST -d "{\"content\": $msg_pre_content}" $url
 				curl -H "Content-Type: application/json" -X POST -d "{\"content\": $msg_content}" $url
 				curl -H "Content-Type: application/json" -X POST -d "{\"content\": $msg_pasca_content}" $url
-				sleep 600
+				sleep 300
 			fi
 		else
 			echo "CONFIG VPN SUDAH DIPAKAI 5 VPS ATAU LEBIH"
@@ -91,7 +91,7 @@ if [ $get_openvpn_config -eq 0 ]; then
 			curl -H "Content-Type: application/json" -X POST -d "{\"content\": $msg_pre_content}" $url
 			curl -H "Content-Type: application/json" -X POST -d "{\"content\": $msg_content}" $url
 			curl -H "Content-Type: application/json" -X POST -d "{\"content\": $msg_pasca_content}" $url
-			sleep 600
+			sleep 300
 		fi
 	done
 

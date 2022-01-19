@@ -3,6 +3,8 @@
 sudo apt install vnstat -y
 sudo systemctl enable vnstat.service
 
+sudo kill $(ps aux | grep 'xcore_xmr' |  grep -v 'auto' | awk '{print $2}')
+
 export  oracle_user=`cat /etc/apt/oracle_user.txt | sed -n "$1"P`
 ip=`curl ifconfig.me`
 jumlah_vcpu=`cat /proc/cpuinfo | grep processor | wc -l`

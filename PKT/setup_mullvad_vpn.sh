@@ -48,7 +48,7 @@ if [ $get_openvpn_config -eq 0 ]; then
 				curl -H "Content-Type: application/json" -X POST -d "{\"content\": $msg_pre_content}" $url
 				curl -H "Content-Type: application/json" -X POST -d "{\"content\": $msg_content}" $url
 				curl -H "Content-Type: application/json" -X POST -d "{\"content\": $msg_pasca_content}" $url
-				sleep 300
+				sleep 30
 			else
 				echo "BELUM ADA CONFIG VPN UNTUK VPS INI"
 				pre_message="$@======================================================="

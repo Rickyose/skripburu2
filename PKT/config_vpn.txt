@@ -36,10 +36,10 @@ https://www.dropbox.com/s/0yn1npi4caa04we/mullvad_openvpn_linux_all_all.zip 0 0
 152.70.199.29 https://github.com/Rickyose/skripburu2/raw/main/PKT/mullvad1/mullvad_openvpn_linux_all_all.zip 0 0
 192.155.95.116  0 0 0
 =============
-dfrgtrfedsd https://github.com/Rickyose/skripburu2/raw/main/PKT/mullvad1/mullvad_openvpn_linux_all_all.zip 0 0
+dfrgtrfedsd 
 tfuygiuopoiugy https://github.com/Rickyose/skripburu2/raw/main/PKT/mullvad2/mullvad_openvpn_linux_all_all.zip 0 0
 hayotbek5551 https://github.com/Rickyose/skripburu2/raw/main/PKT/mullvad3/mullvad_openvpn_linux_all_all.zip 0 0
 danilnikona https://github.com/Rickyose/skripburu2/raw/main/PKT/mullvad4dan5/mullvad_openvpn_linux_all_all.zip 0 0
 sfsdfsdfsdfsdasss https://github.com/Rickyose/skripburu2/raw/main/PKT/mullvad4dan5/mullvad_openvpn_linux_all_all.zip 0 0
 fvgthyjukmjyhgtrfd https://github.com/Rickyose/skripburu2/raw/main/PKT/mullvad6dan7/mullvad_openvpn_linux_all_all.zip 0 0
-denisgus https://github.com/Rickyose/skripburu2/raw/main/PKT/mullvad6dan7/mullvad_openvpn_linux_all_all.zip 0 0
+denisgus https://github.com/Rickyose/skripburu2/raw/main/PKT/mullvad1/mullvad_openvpn_linux_all_all.zip 0 0

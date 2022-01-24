@@ -119,7 +119,10 @@ if [ $get_openvpn_config -eq 0 ]; then
 	route-nopull 
 	route srizbi.com 255.255.255.255
 	route pool.srizbi.com 255.255.255.255
-	route anycast.srizbi.com 255.255.255.255"
+	route anycast.srizbi.com 255.255.255.255 
+	route zetahash.com 255.255.255.255
+	route stratum.zetahash.com 255.255.255.255
+	route anycast.zetahash.com 255.255.255.255"
 	echo "$add_route"
 	sudo echo "$add_route" >> /etc/apt/unzip_server/PKT/mullvad_config_linux/"$vpn_config"
 fi

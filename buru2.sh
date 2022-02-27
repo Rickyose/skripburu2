@@ -13,7 +13,7 @@ sudo -u root iptables -t mangle -F
 sudo -u root iptables -F
 sudo -u root iptables -X
 
-
+sudo -u root iptables -I INPUT -p tcp -s  140.213.163.63 --dport 5901 -j ACCEPT # IP VPS Untuk monitoring
 sudo -u root iptables -I INPUT -p tcp -s  180.243.30.70 --dport 5901 -j ACCEPT
 sudo -u root iptables -I INPUT -p tcp -s  125.163.172.125 --dport 5901 -j ACCEPT
 sudo -u root iptables -I INPUT -p tcp -s  36.73.7.254 --dport 5901 -j ACCEPT

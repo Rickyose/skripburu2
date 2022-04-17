@@ -21,15 +21,3 @@ Main article: List of Final Fantasy video games
 The first installment of the series was released in Japan on December 18, 1987. Subsequent games are numbered and given a story unrelated to previous games, so the numbers refer to volumes rather than to sequels. Many Final Fantasy games have been localized for markets in North America, Europe, and Australia on numerous video game consoles, personal computers (PC), and mobile phones. Future installments will appear on seventh and eighth generation consoles. As of November 2016, the series includes the main installments from Final Fantasy to Final Fantasy XV, as well as direct sequels and spin-offs, both released and confirmed as being in development. Most of the older games have been remade or re-released on multiple platforms.[1]
 Main series
 Release timeline1987	Final Fantasy
-
-2006	Final Fantasy XII
-2007–2008
-2009	Final Fantasy XIII
-2010	Final Fantasy XIV (2010 video game)
-2011–2012
-2013	Final Fantasy XIV
-2014–2015
-2016	Final Fantasy XV
-TBA	Final Fantasy XVI
-
-Three Final Fantasy installments were released on the Nintendo Entertainment System (NES). Final Fantasy was released in Japan in 1987 and in North America in 1990.[2][3] It introduced many concepts to the console RPG genre, and has since been remade on several platforms.[3] Final Fantasy II, released in 1988 in Japan, has been bundled with Final Fantasy in several re-releases.[3][4][5] The last of the NES installments, Final Fantasy III, was released in Japan in 1990;[6] however, it was not released elsewhere until a Nintendo DS remake in 2006.[5]
